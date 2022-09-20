@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device - width, initial-scale=1.0" />
+        <meta charset="uft-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="css/logn.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="login">
+            <h1>Login</h1>
+            <form action="login.php" method="post">
+                <label for="username">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </label>
+                <input type="text" name="username" placeholder="Username" id="username" required />
+                <label for="password">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                </label>
+                <input type="password" name="password" placeholder="Password" id="password" required />
+                <input type="submit" value="Login" />
+                <p>Not yet a member?<a href="http://127.0.0.1:5500/register.html"> Sing up</a></p>
+            </form>
+        </div>
+    </body>
+</html>
